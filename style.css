@@ -1,7 +1,20 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
     color: rgb(0, 0, 0);
     text-align: center;
     background: linear-gradient(90deg, #003f5b, #2b4b7d, #5f5195, #98509d, #cc4c91, #f25375, #ff6f4e, #ff9913);
     color: wheat;
 }
+.items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: 2px solid black;
+    gap: 2rem;
+    
+}
+
